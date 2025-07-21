@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebAPI", "MyWebAPI\MyWebAPI.csproj", "{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPortalAPI", "JobPortalAPI\JobPortalAPI.csproj", "{A5AC66A8-1DF6-3BB9-6303-526E82EE1179}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5AC66A8-1DF6-3BB9-6303-526E82EE1179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AC66A8-1DF6-3BB9-6303-526E82EE1179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AC66A8-1DF6-3BB9-6303-526E82EE1179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AC66A8-1DF6-3BB9-6303-526E82EE1179}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CD27DE6F-1451-4862-BB41-F61E89F598E5}
+		SolutionGuid = {696A3E2C-AF8B-40C6-A91E-968ECCD02FB6}
 	EndGlobalSection
 EndGlobal
