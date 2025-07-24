@@ -24,7 +24,8 @@ namespace JobPortalAPI.Controllers
             _configuration = configuration;
         }
 
-        // Register Endpoint
+        // Register 
+
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] User user)
         {
@@ -53,7 +54,6 @@ namespace JobPortalAPI.Controllers
             return Ok(new { message = "Registration Successful" });
         }
 
-        // Login Endpoint
 
         // Email Validation Utility
         private bool IsValidEmail(string email)
@@ -61,6 +61,8 @@ namespace JobPortalAPI.Controllers
             var emailRegex = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, emailRegex, RegexOptions.IgnoreCase);
         }
+
+        // login
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest loginData)
